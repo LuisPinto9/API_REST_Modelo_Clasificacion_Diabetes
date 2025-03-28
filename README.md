@@ -5,7 +5,10 @@ Para ejemplificar la creación de una API REST para modelos de ML, se empleó un
 
 Para dividir los datos en conjuntos de prueba y entrenamiento, primero se realizó un análisis exploratorio utilizando **YData Profiling**. Posteriormente, se entrenó el modelo y se generó el archivo **"diabetes_model.pkl"**. Para permitir la realización de predicciones, se implementó un endpoint en **FastAPI**. Finalmente, para exponer la API local en el puerto 80 y habilitar las peticiones mediante **cURL**, se utilizó **ngrok**.
 
+El archivo "Actividad_API_REST_Modelos_ML_Unidad_4.ipynb" contiene la ejecución del código en Google Colab.
+
 ## **Tecnologías utilizadas**
+- **Google Colab**: Entorno de ejecución basado en la nube para código en Python.
 - **Python**: Lenguaje de programación principal.
 - **scikit-learn**: Implementación del modelo de **Random Forest**.
 - **pandas** y **numpy**: Manipulación y procesamiento de datos.
